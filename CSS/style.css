@@ -1,0 +1,351 @@
+/* Images provided by Team Cherry in their
+Hollow Knight Press Kit
+*/
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+body {
+  height: 100%;
+  max-width:100%;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+  /*background-color: #000;*/
+}
+
+.ground{
+background-color: black;
+top: 70vh;
+height: 40vh;
+width: 100vw;
+position: fixed;
+}
+
+.beast{
+top: 50vh;
+position: fixed;
+}
+
+.fixed{
+  position: absolute;
+}
+
+.fixed > img{
+  bottom: 25vh;
+  left: 28vw;
+  position: fixed;
+  z-index: 10;
+
+}
+
+.side{
+  background-image: linear-gradient(60deg, #263a63 , black );
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  top: 0%;
+  color: white;
+  width: 550vw;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.read{
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+}
+
+
+
+.side > h1 {
+
+  margin-right: 10vw;
+  margin-left: 20vw;
+  font-size: 3vh;
+
+
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  flex-direction: column;
+  color: white;
+  width: 500px;
+  height: 500px;
+
+  margin: 10px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.card > img{
+
+  height: 300px;
+  width: 400px;
+}
+
+.card > h1{
+  align-self: center;
+
+}
+
+/* Original idea of linking to new page wasn't working
+.rider {
+  background-image: url("rider.gif");
+  background-position: center;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*position: fixed;
+
+  background-color: transparent;
+  /*transition: opacity 6s ease-in-out;
+  transition: visibility 6s;
+  transition-delay: opacity 5s;
+
+
+  opacity: 1;
+  visibility: visible;
+
+
+  padding-left: 50%;
+  padding-right: 50%;
+  padding-bottom: 47%;
+}
+
+.fade_out{
+  transition: opacity 6s ease-in-out;
+
+  transition-delay: opacity 5s;
+  transition-delay: visibility 6s;
+  opacity: 0;
+  visibility: hidden;
+
+}
+
+.tree{
+  background-image: url("tree.jpg");
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  visibility: visible;
+  background-color: transparent;
+
+
+
+
+  padding-left: 50%;
+  padding-right: 50%;
+  padding-bottom: 47%;
+}
+
+
+.butterfly{
+  background-image: url("butterfly.jpg");
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*position: fixed;
+  visibility: visible;
+  background-color: transparent;
+  transition: opacity 6s ease-in-out;
+  transition-delay: opacity 3s;
+  transition: visibility 1s ease-in-out;
+
+
+  padding-left: 50%;
+  padding-right: 50%;
+  padding-bottom: 47%;
+
+
+}
+
+.fountain{
+  background-image: url("fountain.jpg");
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*position: fixed;
+  visibility: visible;
+  background-color: transparent;
+  transition: opacity 6s ease-in-out;
+  transition-delay: opacity 3s;
+  transition: visibility 1s ease-in-out;
+
+
+  padding-left: 50%;
+  padding-right: 50%;
+  padding-bottom: 47%;
+
+}
+
+.bench{
+  background-image: url("bench.jpg");
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*position: fixed;
+  visibility: visible;
+  background-color: transparent;
+  transition: opacity 6s ease-in-out;
+  transition-delay: opacity 3s;
+  transition: visibility 1s ease-in-out;
+
+
+  padding-left: 50%;
+  padding-right: 50%;
+  padding-bottom: 47%;
+
+}
+
+.lake{
+  background-image: url("lake.jpg");
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*position: fixed;
+  visibility: visible;
+  background-color: transparent;
+  transition: opacity 6s ease-in-out;
+  transition-delay: opacity 3s;
+  transition: visibility 1s ease-in-out;
+
+
+  padding-left: 50%;
+  padding-right: 50%;
+  padding-bottom: 47%;
+}
+*/
+
+
+
+.Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+
+
+#MainTitle {
+  position: fixed;
+  opacity: 0.4;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#MainTitle:hover {
+  opacity: 1;
+}
+
+.PageContainer {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0;
+  margin: 0;
+
+}
+
+
+#story{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+
+  width: 100%;
+  height: 100%;
+
+  color: white;
+  transition: opacity 2s;
+  visibility: visible;
+  opacity: 1;
+
+  background-color: #00000099;
+
+}
+
+.intro {
+  background: radial-gradient(circle, #263a63 0%, black 75%);
+}
+
+#particles-js {
+  width: 100%;
+  height: 100vh;
+
+  /*background-color: #fff;*/
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-flow: column-reverse;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  }

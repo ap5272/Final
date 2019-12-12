@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!-- Hollow Knight Fansite Website developed by Anand Parthiban-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <title>Hollow Knight Fansite</title>
+</head>
+
+<body>
+  <div class="side">
+    <div style="margin-left:15vw;">
+      <h1>Hold SHIFT and Scroll</h1>
+    </div>
+
+
+    <div class="card">
+      <h1 class="rellax" data-rellax-speed="3">Story</h1>
+      <img src="promo/promo_04.png" class="rellax">
+    </div>
+
+    <div>
+      <img src="beasts/Characters_0001_sprite.png" class="rellax" data-rellax-speed="-5" data-rellax-zindex="3">
+    </div>
+
+    <div class="read">
+      <h3 class="rellax" data-rellax-speed="-6">Hollow Knight is a game about reclaiming the past, traveling through a vast underground network of tunnels and uncovering secrets of lost kingdoms.</h3>
+
+      <h3 class="rellax" data-rellax-speed="-2">On your journey, you will meet all sorts of quirky characters and face fearsome foes(including yourself). </h3>
+      <h2 class="rellax" data-rellax-speed="-4">The deeper you delve, the more the player will discover about themselves, and the more benches you'll be waking up on.</h2>
+    </div>
+
+
+
+    <div class="card">
+      <h1 class="rellax" data-rellax-speed="3" data-rellax-zindex="3">Monsters</h1>
+      <img src="promo/Promo_6.png">
+    </div>
+
+    <div>
+      <h3 class="rellax" data-rellax-speed="-12">Creatures harboring ill-intent can be found all over the Hallownest.</h3>
+      <div>
+        <img src="beasts/Characters_0006_sprite.png" class="rellax" data-rellax-speed="-5" data-rellax-zindex="1">
+      </div>
+      <h4 class="rellax" data-rellax-speed="-8">Some buzz, others crawl, and some hide behind masks...</h4>
+      <div>
+        <img src="beasts/Characters_0009_sprite.png" class="rellax" data-rellax-speed="-8" data-rellax-zindex="3">
+      </div>
+
+
+    </div>
+    <h2 class="rellax" data-rellax-speed="-4">Carry your nail, and pray you don't fall.</h2>
+
+
+    <div>
+      <img src="beasts/Characters_0002_sprite.png" class="rellax" data-rellax-speed="-10" data-rellax-zindex="-3">
+    </div>
+
+
+
+
+
+
+
+
+    <div class="card">
+      <h1 class="rellax" data-rellax-speed="5">Medals</h1>
+      <img src="promo/promo_03.png" class="rellax" data-rellax-speed="-3">
+
+    </div>
+    <div class="read">
+      <h2 class="rellax" data-rellax-speed="-6">In tiny crevices and endless caverns, badges can be found that grant mysterious powers...</h2>
+
+    </div>
+    <div>
+      <img src="medals/charm_white_full.png" class="rellax" data-rellax-speed="-1" data-rellax-zindex="1">
+    </div>
+    <div>
+      <img src="medals/charm_crystal.png" class="rellax" data-rellax-speed="-2" data-rellax-zindex="3">
+    </div>
+    <div>
+      <img src="medals/charm_hive.png" class="rellax" data-rellax-speed="-3" data-rellax-zindex="-4">
+    </div>
+
+
+    <div>
+      <img src="medals/charm_grimmkin_03.png" class="rellax" data-rellax-speed="-4" data-rellax-zindex="-5">
+    </div>
+    <div>
+      <img src="medals/_0000_charm_generic_02.png" class="rellax" data-rellax-speed="-5" data-rellax-zindex="-6">
+    </div>
+    <div>
+      <img src="medals/_0002_charm_glass_attack_up.png" class="rellax" data-rellax-speed="-6" data-rellax-zindex="-7">
+    </div>
+    <h2 class="rellax" data-rellax-speed="-4">Look deeper, but you may not like what you find.</h2>
+
+
+
+    <div class="card">
+      <h1 class="rellax" data-rellax-speed="3">Trailer</h1>
+      <img src="promo/HK_ALBUM_COVER.jpg">
+
+    </div>
+
+    <video width="600" height="450" controls>
+      <source src="https://www.youtube.com/watch?v=nSPJXlYjENE" type="video/mp4">
+
+      Your browser does not support the video tag.
+    </video>
+
+
+    <div class="card">
+      <h1>Curated by Anand Parthiban</h1>
+      <img class="rellax" src="main/team_cherry_logo_big_red.png" onclick="cherry()">
+    </div>
+  </div>
+
+  <!--Sets ground and character-->
+  <div class="fixed">
+    <img src="main/Main_char.png" alt="main character">
+    <div class="ground">
+      <div id="particles-js"></div>
+    </div>
+  </div>
+
+
+  <script src="JS/particles.js"></script><!-- Using Paricle effects from library downloaded from https://github.com/VincentGarreau/particles.js-->
+  <script src="JS/script.js"></script>
+
+  <script src="JS/rellax.min.js"></script><!-- Using Rellax library downloaded from https://github.com/dixonandmoe/rellax-->
+
+  <script>
+    var rellax = new Rellax('.rellax', {
+      center: true,
+      horizontal: true,
+      vertical: false
+
+    });
+  </script>
+</body>
+
+
+</html>
